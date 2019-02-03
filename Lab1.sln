@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4_CheckIfNumber", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example5_RadioButtons", "Example5_RadioButtons\Example5_RadioButtons.csproj", "{8FAB8D74-2F4A-403C-BA30-92B5517140D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7_BiggerSmaller", "Exercise7_BiggerSmaller\Exercise7_BiggerSmaller.csproj", "{3A96A6E3-55EE-49D7-8823-D2E020D6CA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise8_Game", "Exercise8_Game\Exercise8_Game.csproj", "{3962AB41-558A-4A02-B328-B94F231ED3EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8FAB8D74-2F4A-403C-BA30-92B5517140D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAB8D74-2F4A-403C-BA30-92B5517140D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAB8D74-2F4A-403C-BA30-92B5517140D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A96A6E3-55EE-49D7-8823-D2E020D6CA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A96A6E3-55EE-49D7-8823-D2E020D6CA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A96A6E3-55EE-49D7-8823-D2E020D6CA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A96A6E3-55EE-49D7-8823-D2E020D6CA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3962AB41-558A-4A02-B328-B94F231ED3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3962AB41-558A-4A02-B328-B94F231ED3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3962AB41-558A-4A02-B328-B94F231ED3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3962AB41-558A-4A02-B328-B94F231ED3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,19 @@
+﻿<Window x:Class="Exercise7_BiggerSmaller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise7_BiggerSmaller"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="buttonStart" Content="Start Game" HorizontalAlignment="Left" Margin="253,46,0,0" VerticalAlignment="Top" Width="75" Click="ButtonStart_Click"/>
+        <TextBlock x:Name="textBlockInitialNumber" HorizontalAlignment="Left" Margin="253,143,0,0" TextWrapping="Wrap" Text="Initial Number:" VerticalAlignment="Top" Width="96"/>
+        <RadioButton x:Name="rbBigger" Content="Bigger" HorizontalAlignment="Left" Margin="139,197,0,0" VerticalAlignment="Top" GroupName="Choice"/>
+        <RadioButton x:Name="rbSmaller" Content="Smaller" HorizontalAlignment="Left" Margin="399,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.472,-0.469" GroupName="Choice"/>
+        <Button x:Name="btnGuess" Content="Guess" HorizontalAlignment="Left" Margin="253,247,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuess_Click"/>
+        <TextBlock x:Name="textBlockSecondNumber" HorizontalAlignment="Left" Height="20" Margin="204,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="182"/>
+        <TextBlock x:Name="textBlockResult" HorizontalAlignment="Left" Margin="253,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" FontSize="20"/>
+
+    </Grid>
+</Window>
