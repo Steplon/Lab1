@@ -1,0 +1,18 @@
+﻿<Window x:Class="Example5_RadioButtons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example5_RadioButtons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="rbBigger" Content="Bigger" HorizontalAlignment="Left" Margin="179,133,0,0" VerticalAlignment="Top" FontSize="24" GroupName="Choice"/>
+        <RadioButton x:Name="rbSmaller" Content="Smaller" HorizontalAlignment="Left" Margin="329,133,0,0" VerticalAlignment="Top" Height="43" Width="99" FontSize="24" GroupName="Choice"/>
+        <Button x:Name="btnCheck" Content="Check" HorizontalAlignment="Left" Margin="589,131,0,0" VerticalAlignment="Top" Width="103" Height="33" FontSize="24" Click="BtnCheck_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="244,234,0,0" TextWrapping="Wrap" Text="Enter number here" VerticalAlignment="Top" Width="120" GotFocus="TextBox_GotFocus"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="244,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="172" Foreground="#FF3042B2"/>
+        <Button x:Name="button" Content="Check if even" HorizontalAlignment="Left" Margin="398,237,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
