@@ -35,11 +35,14 @@ namespace Exercise8_Game
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             GameStart();
+            
         }
         
 
         private async void GameStart()
         {
+            button.IsEnabled = false;
+            buttonSubmit.IsEnabled = true;
             score = 0;
 
             for (int i = 0; i < 5; i++)
@@ -56,6 +59,9 @@ namespace Exercise8_Game
 
 
             }
+            tblkQuestions.Text = "Final Score is " + score.ToString();
+            button.IsEnabled = true;
+            buttonSubmit.IsEnabled = false;
         }
 
         private double NextQuestion()
@@ -85,14 +91,15 @@ namespace Exercise8_Game
         private void ButtonSubmit_Click(object sender, RoutedEventArgs e)
         {
 
-            double submittedAnswer = Convert.ToDouble(tbkAnswer.Text);
+            double.TryParse(tbkAnswer.Text, out double submittedAnswer);
 
             if (submittedAnswer == answer)
             {
                 score++;
                 tblkScore.Text = string.Format($"Score:\t{score}");
-                finished = true;
             }
+            finished = true;
+            tbkAnswer.Clear();
         }
 
         private void TbkAnswer_GotFocus(object sender, RoutedEventArgs e)

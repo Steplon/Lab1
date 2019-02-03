@@ -12,6 +12,6 @@
         <TextBox x:Name="tbkAnswer" HorizontalAlignment="Left" Height="18" Margin="148,424,0,0" TextWrapping="Wrap" Text="Enter answer here" VerticalAlignment="Top" Width="213" GotFocus="TbkAnswer_GotFocus"/>
         <TextBlock x:Name="tblkScore" HorizontalAlignment="Left" Margin="221,158,0,0" TextWrapping="Wrap" Text="Score: " VerticalAlignment="Top" FontSize="16"/>
         <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="13" Margin="176,196,0,0" VerticalAlignment="Top" Width="160" Value="100"/>
-        <Button x:Name="buttonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="200,490,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSubmit_Click"/>
+        <Button x:Name="buttonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="200,490,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSubmit_Click" IsDefault="True" IsEnabled="False"/>
     </Grid>
 </Window>
